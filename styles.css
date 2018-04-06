@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-right-container {
+    margin: 10px;
+}
+
+#header {
+    background-image: url("background.jpg");
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: rgb(54, 176, 224);
+    text-align: left;
+    text-shadow: 3px 2px rgb(2, 109, 136);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgb(155, 218, 243);
+}
+
+button {
+    width: 200px;
+    height: 75px;
+}

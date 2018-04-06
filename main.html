@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="game.js"></script>
-    </head>
+
+<head>
+    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
 <body>
+    <div class="flex-container">
+        <div class="flex-inner-container">
+            <div id="header">
+                <h1>Find Wally!</h1>
+            </div>
+            <div id="game-space">
+                <img id="notWally" src="Wally.jpg" alt="WallyGame" usemap="#wallymap" style="width:1590;height:981">
 
-    <img id="notWally" src="Wally.jpg" alt="WallyGame" usemap="#wallymap" style="width:1590;height:981">
+                <map name="wallymap">
+                    <area id="wally" shape="rect" coords="1259,73,1300,114">
 
-    <map name="wallymap">
-        <area id="wally" shape="rect" coords="1259,73,1300,114">
-    </map>
-
+                </map>
+            </div>
+        </div>
+        <div class="flex-right-container">
+            <button type="button">Next level</button>
+        </div>
+    </div>
 </body>
+
 </html>
